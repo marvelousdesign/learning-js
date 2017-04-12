@@ -15,12 +15,12 @@ var n = 6;
 
 function iterateLinks() {
   var newNode = document.createElement('a');                // create the element
-  var text = document.createTextNode(' [ ' + n + ' ]');     // Add some text
+  var text = document.createTextNode(' [ ' + n + ' ]');     // add some text
   newNode.setAttribute('href', '/page/' + n + '/');         // add the URL attribute
-  newNode.appendChild(text);                                // Add it to the new hyperlink
+  newNode.appendChild(text);                                // add it to the new hyperlink
   var list = document.getElementsByClassName("pagination"); // get the element by class name
   var brs = list[0].getElementsByTagName("br");             // get the element by tag name
-  while (brs.length) {                                      // while loop checks for <br>'s and excicutes
+  while (brs.length) {                                      // while loop checks for <br>'s and executes
     brs[0].parentNode.removeChild(brs[0]);                  // removes <br>'s from pagination class
   }
   list[0].style.color = 'red';                              // styled to see if it's working..
