@@ -2,8 +2,8 @@
 // @name        CT Links
 // @namespace   CT Links by MLuong
 // @description Iterate/appends links after the 5th page "[ 5 ]" link through .pagination
-// @include     http://www.couch-tuner.ag/*
-// @include     http://couch-tuner.ag/*
+// @include     http://www.mycouchtuner.ag/*
+// @include     http://mycouchtuner.ag/*
 // @include     http://www.couchtuner.io/*
 // @include     http://couchtuner.io/*
 // @version     1
